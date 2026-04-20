@@ -1,0 +1,1 @@
+# ski_club_shizuoka
