@@ -122,9 +122,17 @@
 </footer>
 
 <script>
+const hero = document.getElementById("videoHero");
+
+// 5秒後にフェード開始
 setTimeout(() => {
-  document.getElementById("videoHero").style.display = "none";
-}, 3000);
+  hero.classList.add("fade-out");
+}, 5000);
+
+// フェード後に削除（1秒後）
+setTimeout(() => {
+  hero.style.display = "none";
+}, 6000);
 </script>
 
 </body>
