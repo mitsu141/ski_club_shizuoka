@@ -98,3 +98,13 @@ footer {
   }
 
 }
+
+
+/* フェードアウト */
+.video-hero {
+  transition: opacity 1s ease;
+}
+
+.video-hero.fade-out {
+  opacity: 0;
+}
